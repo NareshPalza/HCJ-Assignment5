@@ -1,0 +1,24 @@
+{
+  "name": "hcj-assignment5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm run sync",
+    "sync": "browser-sync start --server --files index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NareshPalza/HCJ-Assignment5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NareshPalza/HCJ-Assignment5/issues"
+  },
+  "homepage": "https://github.com/NareshPalza/HCJ-Assignment5#readme",
+  "dependencies": {
+    "browser-sync": "^2.27.5"
+  }
+}
